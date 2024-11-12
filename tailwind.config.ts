@@ -10,8 +10,8 @@ export default {
     extend: {
       
       animation:{
-        needle:"needle  3s ease-in-out infinite",
-        circle:"circle 1.5s ease-in-out infinite",
+        needle:"needle  5s ease-in-out infinite",
+        circle:"circle 4s ease-in-out infinite",
         spin:" spin 15s ease-in-out infinite",
         gol:" gol 10s ease-in-out infinite",
       },
