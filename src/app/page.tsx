@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className="h-svh w-svw gap-[30px] bg-black flex items-center justify-center">
-      <div id="gauge1" className="h-[350px] pr-[5]  w-[350px] flex items-center rounded-[50%] border-black justify-center mr-[30px]">
+      <div id="gauge1" className="h-[350px] pr-[20px]  w-[480px] flex items-center rounded-[50%] border-black justify-center mr-[30px]">
         <div className="animate-circle">
           <Image src="/circle.png" alt="circle image" width={380} height={380} />
         </div>
